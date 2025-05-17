@@ -1,0 +1,91 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  flex-wrap: wrap;
+}
+
+.side-button,
+#prev-button,
+#next-button,
+#back-button {
+  font-size: 2em;
+  padding: 20px 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.melody-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom right, #ccc, #eee);
+  padding: 40px;
+  border: 3px solid #aaa;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px #888;
+  margin: 10px;
+  flex-grow: 1;
+  max-width: 400px;
+}
+
+.melody-label {
+  font-size: 2em;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 15px 30px;
+  margin-bottom: 25px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.on-button,
+.off-button {
+  font-size: 2em;
+  padding: 25px 70px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: none;
+  width: 240px;
+  box-shadow: 0 5px #555;
+  transition: all 0.1s ease-in-out;
+}
+
+.on-button {
+  background-color: black;
+  color: white;
+}
+
+.on-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px #333;
+}
+
+.off-button {
+  background-color: red;
+  color: white;
+}
+
+.off-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px #800;
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "line_id": "JT", 
+    "line_name": "東海道線"
+  },
+  {
+    "line_id": "JO", 
+    "line_name": "横須賀線"
+  },
+  {
+    "line_id": "JY", 
+    "line_name": "山手線"
+  },
+  {
+    "line_id": "JUT", 
+    "line_name": "高崎線"
+  },
+  {
+    "line_id": "JU", 
+    "line_name": "宇都宮線"
+  },
+  {
+    "line_id": "JK", 
+    "line_name": "京浜東北・根岸線"
+  },
+  {
+    "line_id": "JJ", 
+    "line_name": "常磐線"
+  }
+]
