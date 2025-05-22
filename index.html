@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>発車メロディWebアプリ</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <!-- メニュー画面 -->
@@ -14,18 +14,18 @@
   </div>
 
   <!-- メイン画面 -->
-  <div id="main-screen" style="display:none;">
+  <div id="main-screen" style="display: none;">
     <h2 id="line-name"></h2>
     <h3 id="station-name"></h3>
-    <select id="station-select" onchange="jumpToStation()" style="font-size: 1.5em; padding: 10px; margin-top: 10px;"></select>
+    <select id="station-select" onchange="jumpToStation()"></select>
 
     <!-- 操作ボタン -->
     <div class="buttons">
       <button onclick="prevStation()" id="prev-button" class="side-button">前へ</button>
       <div class="melody-group">
         <div class="melody-label">発車ベル</div>
-        <button onclick="playMelody()" class="on-button">ON</button>
-        <button onclick="stopMelody()" class="off-button">OFF</button>
+        <button onclick="playMelody()" class="on-button" id="on-button">ON</button>
+        <button onclick="stopMelody()" class="off-button" id="off-button">OFF</button>
       </div>
       <button onclick="nextStation()" id="next-button" class="side-button">次へ</button>
     </div>

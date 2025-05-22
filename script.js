@@ -13,10 +13,22 @@ window.onload = async function () {
 function renderLineButtons() {
   const container = document.getElementById("line-buttons");
   container.innerHTML = "";
+
   lines.forEach(line => {
-    const btn = document.createElement("button");
-    btn.textContent = line.line_name;
+    const btn = document.createElement("div");
+    btn.className = "line-button";
     btn.onclick = () => selectLine(line.line_id, line.line_name);
+
+    const img = document.createElement("img");
+    img.src = `img/${line.line_id}.png`;
+    img.alt = line.line_name;
+
+    const label = document.createElement("div");
+    label.className = "line-label";
+    label.textContent = line.line_name;
+
+    btn.appendChild(img);
+    btn.appendChild(label);
     container.appendChild(btn);
   });
 }
@@ -27,7 +39,7 @@ async function selectLine(lineId, lineName) {
 
   const res = await fetch("data/stations.json");
   const allStations = await res.json();
-  stations = allStations.find(line => line.line_id === lineId).stations;
+  stations = allStations.find(line => line.line_id === lineId)?.stations || [];
 
   currentStationIndex = 0;
   updateStationDisplay();
@@ -40,9 +52,9 @@ function updateStationDisplay() {
   const station = stations[currentStationIndex];
   document.getElementById("station-name").textContent = station.sta_name;
 
-  // 前/次ボタン表示更新
-  document.getElementById("prev-button").style.display = currentStationIndex === 0 ? "none" : "inline-block";
-  document.getElementById("next-button").style.display = currentStationIndex === stations.length - 1 ? "none" : "inline-block";
+  // ボタン表示制御
+  document.getElementById("prev-button").style.visibility = currentStationIndex === 0 ? "hidden" : "visible";
+  document.getElementById("next-button").style.visibility = currentStationIndex === stations.length - 1 ? "hidden" : "visible";
 
   // セレクトボックス更新
   const select = document.getElementById("station-select");
@@ -65,13 +77,15 @@ function jumpToStation() {
 function playMelody() {
   const station = stations[currentStationIndex];
   const path = `audio/${currentLineId}/${station.sta_id}_01.wav`;
+  const onButton = document.getElementById("on-button");
 
   fetch(path)
     .then(res => {
       if (!res.ok) throw new Error();
       player.src = path;
-      player.loop = true; // ループ再生
+      player.loop = true;
       player.play();
+      onButton.classList.add("active");
     })
     .catch(() => {
       alert("音声ファイルが存在しません");
@@ -79,17 +93,27 @@ function playMelody() {
 }
 
 function stopMelody() {
+  const station = stations[currentStationIndex];
+  const path = `audio/${currentLineId}/${station.sta_id}_02.wav`;
+
   player.pause();
   player.currentTime = 0;
   player.loop = false;
 
-  const station = stations[currentStationIndex];
-  const path = `audio/${currentLineId}/${station.sta_id}_02.wav`;
+  const onButton = document.getElementById("on-button");
+  const offButton = document.getElementById("off-button");
+  onButton.classList.remove("active");
+
   fetch(path)
     .then(res => {
       if (!res.ok) throw new Error();
       const door = new Audio(path);
       door.play();
+
+      offButton.classList.add("pressed");
+      setTimeout(() => {
+        offButton.classList.remove("pressed");
+      }, 150);
     })
     .catch(() => {
       alert("音声ファイルが存在しません");
