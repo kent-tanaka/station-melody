@@ -8,6 +8,10 @@
     "line_name": "横須賀線"
   },
   {
+    "line_id": "JS", 
+    "line_name": "湘南新宿ライン"
+  },
+  {
     "line_id": "JY", 
     "line_name": "山手線"
   },

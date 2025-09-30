@@ -1,1 +1,15 @@
 python -m http.server 8000
+
+cd ~/Desktop/quiz-app
+
+# 変更を確認（ステータスを見る）
+git status
+
+# 変更ファイルを追加
+git add .
+
+# コミット
+git commit -m "更新内容の説明"
+
+# プッシュして反映
+git push

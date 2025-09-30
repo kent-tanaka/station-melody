@@ -50,6 +50,30 @@
     ]
   },
   {
+    "line_id": "JS",
+    "stations": [
+      { "sta_id": "JS24", "sta_name": "大宮" },
+      { "sta_id": "JS23", "sta_name": "浦和" },
+      { "sta_id": "JS22", "sta_name": "赤羽" },
+      { "sta_id": "JS21", "sta_name": "池袋" },
+      { "sta_id": "JS20", "sta_name": "新宿" },
+      { "sta_id": "JS19", "sta_name": "渋谷" },
+      { "sta_id": "JS18", "sta_name": "恵比寿" },
+      { "sta_id": "JS17", "sta_name": "大崎" },
+      { "sta_id": "JS16", "sta_name": "西大井" },
+      { "sta_id": "JS15", "sta_name": "武蔵小杉" },
+      { "sta_id": "JS14", "sta_name": "新川崎" },
+      { "sta_id": "JS13", "sta_name": "横浜" },
+      { "sta_id": "JS12", "sta_name": "保土ヶ谷" },
+      { "sta_id": "JS11", "sta_name": "東戸塚" },
+      { "sta_id": "JS10", "sta_name": "戸塚" },
+      { "sta_id": "JS09", "sta_name": "大船" },
+      { "sta_id": "JS08", "sta_name": "北鎌倉" },
+      { "sta_id": "JS07", "sta_name": "鎌倉" },
+      { "sta_id": "JS06", "sta_name": "逗子" }
+    ]
+  },
+  {
     "line_id": "JU",
     "stations": [
       { "sta_id": "JU34", "sta_name": "黒磯" },
