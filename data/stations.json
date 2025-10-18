@@ -46,7 +46,16 @@
       { "sta_id": "JO16", "sta_name": "西大井" },
       { "sta_id": "JO17", "sta_name": "品川" },
       { "sta_id": "JO18", "sta_name": "新橋" },
-      { "sta_id": "JO19", "sta_name": "東京" }
+      { "sta_id": "JO19", "sta_name": "東京" },
+      { "sta_id": "JO20", "sta_name": "新日本橋" },
+      { "sta_id": "JO21", "sta_name": "馬喰町" },
+      { "sta_id": "JO22", "sta_name": "錦糸町" },
+      { "sta_id": "JO23", "sta_name": "新小岩" },
+      { "sta_id": "JO24", "sta_name": "市川" },
+      { "sta_id": "JO25", "sta_name": "船橋" },
+      { "sta_id": "JO26", "sta_name": "津田沼" },
+      { "sta_id": "JO27", "sta_name": "稲毛" },
+      { "sta_id": "JO28", "sta_name": "千葉" }
     ]
   },
   {
@@ -227,6 +236,72 @@
       { "sta_id": "JK01", "sta_name": "大船" }
     ]
   },
+  {
+    "line_id": "JH",
+    "stations": [
+      { "sta_id": "JK01", "sta_name": "大船" },
+      { "sta_id": "JK02", "sta_name": "本郷台" },
+      { "sta_id": "JK03", "sta_name": "港南台" },
+      { "sta_id": "JK04", "sta_name": "洋光台" },
+      { "sta_id": "JK05", "sta_name": "新杉田" },
+      { "sta_id": "JK06", "sta_name": "磯子" },
+      { "sta_id": "JK07", "sta_name": "根岸" },
+      { "sta_id": "JK08", "sta_name": "山手" },
+      { "sta_id": "JK09", "sta_name": "石川町" },
+      { "sta_id": "JK10", "sta_name": "関内" },
+      { "sta_id": "JK11", "sta_name": "桜木町" },
+      { "sta_id": "JK12", "sta_name": "横浜" },
+      { "sta_id": "JH13", "sta_name": "東神奈川" },
+      { "sta_id": "JH14", "sta_name": "大口" },
+      { "sta_id": "JH15", "sta_name": "菊名" },
+      { "sta_id": "JH16", "sta_name": "新横浜" },
+      { "sta_id": "JH17", "sta_name": "小机" },
+      { "sta_id": "JH18", "sta_name": "鴨居" },
+      { "sta_id": "JH19", "sta_name": "中山" },
+      { "sta_id": "JH20", "sta_name": "十日市場" },
+      { "sta_id": "JH21", "sta_name": "長津田" },
+      { "sta_id": "JH22", "sta_name": "成瀬" },
+      { "sta_id": "JH23", "sta_name": "町田" },
+      { "sta_id": "JH24", "sta_name": "古淵" },
+      { "sta_id": "JH25", "sta_name": "淵野辺" },
+      { "sta_id": "JH26", "sta_name": "矢部" },
+      { "sta_id": "JH27", "sta_name": "相模原" },
+      { "sta_id": "JH28", "sta_name": "橋本" },
+      { "sta_id": "JH29", "sta_name": "相原" },
+      { "sta_id": "JH30", "sta_name": "八王子みなみ野" },
+      { "sta_id": "JH31", "sta_name": "片倉" },
+      { "sta_id": "JH32", "sta_name": "八王子" }
+    ]
+  },
+  {
+    "line_id": "JC",
+    "stations": [
+      { "sta_id": "JC24", "sta_name": "高尾" },
+      { "sta_id": "JC23", "sta_name": "西八王子" },
+      { "sta_id": "JC22", "sta_name": "八王子" },
+      { "sta_id": "JC21", "sta_name": "豊田" },
+      { "sta_id": "JC20", "sta_name": "日野" },
+      { "sta_id": "JC19", "sta_name": "立川" },
+      { "sta_id": "JC18", "sta_name": "国立" },
+      { "sta_id": "JC17", "sta_name": "西国分寺" },
+      { "sta_id": "JC16", "sta_name": "国分寺" },
+      { "sta_id": "JC15", "sta_name": "武蔵小金井" },
+      { "sta_id": "JC14", "sta_name": "東小金井" },
+      { "sta_id": "JC13", "sta_name": "武蔵境" },
+      { "sta_id": "JC12", "sta_name": "三鷹" },
+      { "sta_id": "JC11", "sta_name": "吉祥寺" },
+      { "sta_id": "JC10", "sta_name": "西荻窪" },
+      { "sta_id": "JC09", "sta_name": "荻窪" },
+      { "sta_id": "JC08", "sta_name": "阿佐ヶ谷" },
+      { "sta_id": "JC07", "sta_name": "高円寺" },
+      { "sta_id": "JC06", "sta_name": "中野" },
+      { "sta_id": "JC05", "sta_name": "新宿" },
+      { "sta_id": "JC04", "sta_name": "四ツ谷" },
+      { "sta_id": "JC03", "sta_name": "御茶ノ水" },
+      { "sta_id": "JC02", "sta_name": "神田" },
+      { "sta_id": "JC01", "sta_name": "東京" }
+    ]
+  },   
   {
     "line_id": "JJ",
     "stations": [

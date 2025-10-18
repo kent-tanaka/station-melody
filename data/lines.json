@@ -5,7 +5,7 @@
   },
   {
     "line_id": "JO", 
-    "line_name": "横須賀線"
+    "line_name": "横須賀・総武快速線"
   },
   {
     "line_id": "JS", 
@@ -26,6 +26,14 @@
   {
     "line_id": "JK", 
     "line_name": "京浜東北・根岸線"
+  },
+  {
+    "line_id": "JH", 
+    "line_name": "横浜・根岸線"
+  },
+  {
+    "line_id": "JC", 
+    "line_name": "中央快速線"
   },
   {
     "line_id": "JJ", 
