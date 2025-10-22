@@ -274,6 +274,37 @@
     ]
   },
   {
+    "line_id": "JN",
+    "stations": [
+      { "sta_id": "JN01", "sta_name": "川崎" },
+      { "sta_id": "JN02", "sta_name": "尻手" },
+      { "sta_id": "JN03", "sta_name": "矢向" },
+      { "sta_id": "JN04", "sta_name": "鹿島田" },
+      { "sta_id": "JN05", "sta_name": "平間" },
+      { "sta_id": "JN06", "sta_name": "向河原" },
+      { "sta_id": "JN07", "sta_name": "武蔵小杉" },
+      { "sta_id": "JN08", "sta_name": "武蔵中原" },
+      { "sta_id": "JN09", "sta_name": "武蔵新城" },
+      { "sta_id": "JN10", "sta_name": "武蔵溝ノ口" },
+      { "sta_id": "JN11", "sta_name": "津田山" },
+      { "sta_id": "JN12", "sta_name": "久地" },
+      { "sta_id": "JN13", "sta_name": "宿河原" },
+      { "sta_id": "JN14", "sta_name": "登戸" },
+      { "sta_id": "JN15", "sta_name": "中野島" },
+      { "sta_id": "JN16", "sta_name": "稲田堤" },
+      { "sta_id": "JN17", "sta_name": "矢野口" },
+      { "sta_id": "JN18", "sta_name": "稲城長沼" },
+      { "sta_id": "JN19", "sta_name": "南多摩" },
+      { "sta_id": "JN20", "sta_name": "府中本町" },
+      { "sta_id": "JN21", "sta_name": "分倍河原" },
+      { "sta_id": "JN22", "sta_name": "西府" },
+      { "sta_id": "JN23", "sta_name": "谷保" },
+      { "sta_id": "JN24", "sta_name": "矢川" },
+      { "sta_id": "JN25", "sta_name": "西国立" },
+      { "sta_id": "JN26", "sta_name": "立川" }
+    ]
+  },     
+  {
     "line_id": "JC",
     "stations": [
       { "sta_id": "JC24", "sta_name": "高尾" },

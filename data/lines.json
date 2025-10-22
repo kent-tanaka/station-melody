@@ -32,6 +32,10 @@
     "line_name": "横浜・根岸線"
   },
   {
+    "line_id": "JN", 
+    "line_name": "南武線"
+  },
+  {
     "line_id": "JC", 
     "line_name": "中央快速線"
   },
