@@ -40,6 +40,10 @@
     "line_name": "中央快速線"
   },
   {
+    "line_id": "JB", 
+    "line_name": "中央・総武線各駅停車"
+  },
+  {
     "line_id": "JJ", 
     "line_name": "常磐線"
   }
