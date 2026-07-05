@@ -1,7 +1,11 @@
 [
   {
-    "line_id": "JT", 
-    "line_name": "東海道線"
+    "line_id": "JT1", 
+    "line_name": "東海道線（下り）"
+  },
+  {
+    "line_id": "JT2", 
+    "line_name": "東海道線（上り）"
   },
   {
     "line_id": "JO", 

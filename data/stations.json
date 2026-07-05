@@ -1,6 +1,6 @@
 [
   {
-    "line_id": "JT",
+    "line_id": "JT1",
     "stations": [
       {"sta_id": "JT01","sta_name": "東京"},
       {"sta_id": "JT02","sta_name": "新橋"},
@@ -23,6 +23,32 @@
       {"sta_id": "JT19","sta_name": "真鶴"},
       {"sta_id": "JT20","sta_name": "湯河原"},
       {"sta_id": "JT21","sta_name": "熱海"}
+    ]
+  },
+  {
+    "line_id": "JT2",
+    "stations": [
+      {"sta_id": "JT21","sta_name": "熱海"},
+      {"sta_id": "JT20","sta_name": "湯河原"},
+      {"sta_id": "JT19","sta_name": "真鶴"},
+      {"sta_id": "JT18","sta_name": "根府川"},
+      {"sta_id": "JT17","sta_name": "早川"},
+      {"sta_id": "JT16","sta_name": "小田原"},
+      {"sta_id": "JT15","sta_name": "鴨宮"},
+      {"sta_id": "JT14","sta_name": "国府津"},
+      {"sta_id": "JT13","sta_name": "二宮"},
+      {"sta_id": "JT12","sta_name": "大磯"},
+      {"sta_id": "JT11","sta_name": "平塚"},
+      {"sta_id": "JT10","sta_name": "茅ヶ崎"},
+      {"sta_id": "JT09","sta_name": "辻堂"},
+      {"sta_id": "JT08","sta_name": "藤沢"},
+      {"sta_id": "JT07","sta_name": "大船"},
+      {"sta_id": "JT06","sta_name": "戸塚"},
+      {"sta_id": "JT05","sta_name": "横浜"},
+      {"sta_id": "JT04","sta_name": "川崎"},
+      {"sta_id": "JT03","sta_name": "品川"},
+      {"sta_id": "JT02","sta_name": "新橋"},
+      {"sta_id": "JT01","sta_name": "東京"}
     ]
   },
   {

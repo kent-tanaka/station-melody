@@ -1,6 +1,7 @@
 python -m http.server 8000
 
 cd ~/Desktop/quiz-app
+cd c/work/stationMelody 
 
 # 変更を確認（ステータスを見る）
 git status
